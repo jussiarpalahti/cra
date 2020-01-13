@@ -15,7 +15,7 @@ jobs:
     - name: Azure Pipelines Action
       uses: Azure/pipelines@v1
       with:
-        azure-devops-project-url: 'https://dev.azure.com/cityofhelsinki/helsinki-infra/'
+        azure-devops-project-url: 'https://dev.azure.com/cityofhelsinki/helsinki-infra'
         # Name of the Azure Pipeline to be triggered
         azure-pipeline-name: 'helsinki-infra'
         # Paste personal access token of the user as value of secret variable:AZURE_DEVOPS_TOKEN
